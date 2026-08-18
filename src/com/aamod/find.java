@@ -2,9 +2,9 @@ package com.aamod;
 
 public class find {
     public static void main(String[] args) {
-        int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 10, 9};
-        System.out.println(find(arr,0,arr.length-1));
-        System.out.println(findIndex(arr,0,arr.length-1));
+        int[] arr = {2,3,1,4,4,5};
+        System.out.println(find(arr,5,arr.length-1));
+        System.out.println(findIndex(arr,5,arr.length-1));
         System.out.println(findIndexlast(arr,0,arr.length-1));
     }
 
